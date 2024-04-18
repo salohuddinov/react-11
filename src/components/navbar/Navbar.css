@@ -1,20 +1,23 @@
-.navbar{
+.navbar {
     height: 80px;
-    background: linear-gradient(30deg, dodgerblue,violet);
+    background: linear-gradient(30deg, dodgerblue, violet);
     color: #fff;
     padding: 0 10%;
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.navbar a{
+
+.navbar a {
     color: #fff;
     text-decoration: none;
 }
-.navbar a.active{
+
+.navbar a.active {
     color: crimson;
 }
-.navbar a sup{
+
+.navbar a sup {
     background: crimson;
     color: #fff;
     padding: 1px 3px;
@@ -23,4 +26,16 @@
     display: inline-block;
     border-radius: 20px;
     font-size: 11px;
+}
+
+.dark__mode {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: transparent;
 }

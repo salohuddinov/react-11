@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+}
+
+.text__section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 780px;
+    height: auto;
+}
+
+.text__section input {
+    display: block;
+    width: 355px;
+    height: 38px;
+    border: 2px solid #8d8d8d;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+
+.text__section button {
+    background: #1777e6;
+    border: 2px solid #8d8d8d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin-top: -55px;
+    margin-bottom: 55px;
+}
+
+.text__section button {
+    background: transparent;
+}
+
+.list__li {
+    display: block;
+    width: 390px;
+    margin: 10px auto;
+    border: 1px solid #222;
+}

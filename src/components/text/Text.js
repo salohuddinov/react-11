@@ -17,12 +17,14 @@ function Text() {
     let items = texts?.map((el, inx) => <li key={inx} className='list__li'>{el}</li>)
     return (
         <>
-            <input ref={value} type="text" />
-            <button onClick={handleCreate}>add</button>
-            <div className="text__wrapper">
-                <ul>
-                    {items}
-                </ul>
+            <div className="text__section">
+                <input ref={value} type="text" />
+                <button onClick={handleCreate}>add</button>
+                <div className="text__wrapper">
+                    <ul>
+                        {items}
+                    </ul>
+                </div>
             </div>
         </>
 
